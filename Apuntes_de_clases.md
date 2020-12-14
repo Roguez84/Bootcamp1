@@ -14,3 +14,12 @@ Servidor DNS agarra un nombre y lo convierte en un IP. (esto pasa cuando ponemos
 Browser acepta solo acepta 3 tipos de formatos. HTML, CSS, Javascript (parece que también puede mostrar XML y JSON). Todas las paginas de internet se pueden crear solo con estas 3
 
 W3schools.com. Aquí aparece toda la documentación para HTML, CSS
+
+HTML y CSS tecnicamente no son lenguajes de programacion
+HTML is mas que nada es para armar estructura
+CSS es para generar los estilos (colores, tamaños, etc)
+
+Fullstack es un profesional que se puede mover entre front y back end
+
+JavaScript se puede usar para front y para back (ojo que no son igales)
+primero vamos a aprender el JavaScript del front end (el que interactua con el navegador)
