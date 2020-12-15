@@ -59,3 +59,23 @@ Por convencion los nombres de archivos van con minuscula y sin espacios
 para usar rutas relativas (en vez de absolutas)
 -hay que empezar con "./"
 -"../" le dice al buscador que se salga a la carpeta anterior y que busque desde ahi
+
+
+Para trabajar en el body, tenemos 2 tipos de lista
+-Unordered list <ul> (Pone bullets)
+-Ordered list <ol> (Pone numeros en vez de bullets)
+
+Ahora para trabajar con links se usa <a>
+para hacer que un link se abra en unanueva pestaña (y te dirija a esa pestaña) se usa el atributo "target"
+Para hacer que una imagen te lleve a un link. hay que ponerle el archivo de la imagen en vez de texto a <a>
+
+Para hacer divisiones en la pagina podemos usar las etiquetas <div>
+<div> es un divisor que ocupa toda la linea (todo el ancho de la pagina), entonces el siguiente elemento va a aparecer abajo
+
+la etiqueta <figure> sirve para crear secciones pero para imagenes  (hace lo mismo que <div> pero esto ayuda a especificar que describe que estamos trabajando con una foto)
+
+la etiqueta <nav> se usa para especificar que la separacion es para la navigation bar (funciona igual que <div> pero especifica que es para la barra de navegacion)
+
+la etiqueta <footer> es similar a <nav> pero para el footer
+
+al final, <nav>,<section>,<main>,<article>,<figure>,<header>(no confundir con <head>) son lo mismo que <div> solo que son mas especificas y ayudan a leer el codigo
