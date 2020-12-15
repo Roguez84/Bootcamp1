@@ -26,6 +26,8 @@ F. Footer
 
 La pagina principal del sitio se debe llamar index.html pq este es el archivo que inicia una pagina web (es una convencion)
 
+## Crear paginas con HTML
+
 ### 7. Introduccion a HTML
 
 ### 8. Trabajando en el Head Titulo
@@ -36,11 +38,11 @@ tambien dentro dentro de la eiqueta head, hay que especificar que pueda leer car
 Tambien aqui elegimos el icono que aparecera en el tab
 La imagen del icono del tab hay que guardarla en la carpeta de nuestra paginas
 Ejemplos de metadatos que se pueden poner son:
--Especificar el autor de la pagina web "name = " y "
+-Especificar el autor de la pagina web "name = "
 -otro es "content = " Esto es lo que va a aparecer en los buscadores
 -Se puede ver que otros metadatos se pueden usar en la pagina w3school
 
-### 9. Notores de busqueda y Seccion
+### 9. Motores de busqueda y Seccion
 Lo que va en la etiqueta <title> es de lo mas clave para SEO. Se recomienda max 50-65 caracteres
 "La etiqueta <meta name="description" content="Esta es la meta-description de la página"> no es un
 factor crítico en el posicionamiento de una web, pero sí afecta directamente en la tasa de clics

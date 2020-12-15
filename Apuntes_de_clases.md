@@ -23,3 +23,39 @@ Fullstack es un profesional que se puede mover entre front y back end
 
 JavaScript se puede usar para front y para back (ojo que no son igales)
 primero vamos a aprender el JavaScript del front end (el que interactua con el navegador)
+
+
+# Apuntes Dia 2
+Pagina web es distinto a un sitio web
+
+Por cada proyecto/pagina web, hay que crear una carpeta (evitar espacios en los nombres)
+
+Index.html es la pagina principal de cualquier pagina web. Este es el archivo en la carpeta que el servidor va a buscar
+
+Hay 2 partes. Head y Body.
+Head contiene informacion para el navegador
+El buscador lee HTML de arriba para abajo
+
+Las etiquetas "h" son para titulos/subtitulos (no confundir con la etiqueta <title> del body)
+
+No debe haber mas de una etiqueta por pagina. Mientras que h2+ pueden haber mas
+
+Para separar secciones de la pagina web, vamos a usar etiquetas
+Ademas de apertura y cierre, las etiquetas pueden contener atributos
+Los atributos se ponen dentro de la etiqueta de apertura
+el atributo style para las etiquetas "h" se puede hacer:
+-darle color
+
+Lorem Ipsum es una manera de poner texto aleatorio para ver como queda algo
+
+Cuando ponemos imagenes, tambien podemos ponerle un texto que se muestre en caso de que no funcione la formatos
+
+la etiqueta img es para añadir imagenes
+-atributo 'src=""' crea una imagen basada en una ruta de internet (Esta etiqueta no tiene cierre, solo tiene apertura)
+-para usar una imagen que este en el computador hay que hacer una carpeta que se llama assets
+
+Por convencion los nombres de archivos van con minuscula y sin espacios
+
+para usar rutas relativas (en vez de absolutas)
+-hay que empezar con "./"
+-"../" le dice al buscador que se salga a la carpeta anterior y que busque desde ahi
