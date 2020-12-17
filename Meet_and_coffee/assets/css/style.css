@@ -1,8 +1,8 @@
-  nav {
+  /*nav {
     background-image: linear-gradient(to right, blue,green);
     opacity: 0.4
   }
-
+*/
 /*"#" conecta con id= (en este caso titulo en index.html */
   #titulo {
     color:blue;
@@ -77,4 +77,16 @@ el espacio es para seleccionar un "hijo" osea una linea que este*/
   /*ahora va a cambiar de color algo que le hacemos hover como un subtitulo*/
     #sub:hover {
       color:blueviolet;
+    }
+
+/*******************************/
+/* codigo para pagina de tarea */
+    #m_n_c {
+      background-image: black/*#000F08*/;
+    }
+    #m_n_c a {
+      color:gray
+    }
+    #taza {
+      background-color:black
     }
