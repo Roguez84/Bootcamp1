@@ -78,4 +78,67 @@ la etiqueta <nav> se usa para especificar que la separacion es para la navigatio
 
 la etiqueta <footer> es similar a <nav> pero para el footer
 
-al final, <nav>,<section>,<main>,<article>,<figure>,<header>(no confundir con <head>) son lo mismo que <div> solo que son mas especificas y ayudan a leer el codigo
+al final, '<nav>','<section>',<main>,<article>,<figure>,<header>(no confundir con <head>) son lo mismo que <div> solo que son mas especificas y ayudan a leer el codigo
+
+# Apuntes dia 3
+
+HTML define la estructure (el esqueleto), CSS define los estilos de las painas web
+
+CSS se ocupa en base a las etiquetas de html
+CSS lo que hace es aplicar estilo a todas etiquetas del mismo nombres
+a etiquetas de HTML se le pueden aplicar clases ("class=")
+Las clases pueden ser aplicadas a varias etiquetas que son distintas
+Una etiqueta puede tener mas de una clases
+tambien se puede especificar "id=".
+En resumen los 3 selectores JSON
+-Por Etiqueta
+-Por id
+-Por clase
+(Estas 3, son atributos de etiquetas en HTML. Por ende, son HTML, no CSS)
+(FYI, los atributos pueden ser puestos en cualquier orden)
+
+Dividir (usando divisores) la pagina en secciones es clave
+
+HTML: La etiqueta <hr> traza una linea horizontal
+HTML: La etiqueta <br> es un break, sirve para saltarse una linea
+
+antiguamente, antes de las etiquetas semanticas, se usaba <div class="">
+En otras palabras, las etiquetas semanticas son como declararles una clase a los <div>
+
+Para aplicar estilos, hay 3 maneras distintas de hacerlo
+
+El atributo "style=;" es una manera de agregar estilo "in line".
+"style=;" hay que terminarlo en ';'
+
+tambien se puede usar una etiqueta <style>. Aqui se puede escribir codigo class
+La etiqueta <style> no es semantica, si no que define que vamos a escribir codigo CSS
+
+Para colores se puede usar nombres o colores hexadecimales
+
+Se recomienda hacer un archivo aparte con puro CSS (la hoja de estilo) y
+guardarlo en la carpeta assets
+
+Hay que decirle al archivo index.html que tiene que linkearse con el archivo style.CSS
+como esto es informacion para el navegador, hay que especificarlo en el head
+
+Muchos apuntes escritos en el codigo mismo sobre css
+
+Hay codigo para ene vez de especificar un id, uno vaya eligiendo "niveles" (hijos)
+a los cuales va a aplicar algo que queremos hacer.
+Hay por ejemplo "first-child","nth-child"
+
+## Modelo de Cajas
+la etiqueta <span> es como <p> pero no usa el ancho de la pantalla. Los elementos
+que tienen esta propiedad se llaman inline. Otros incluyan <a> (links) y <strong> (bold)
+la differencia entre <p> y <span> es que <p> tiene display block y <span> es inline
+<b> se puede usar para bold tambien
+<em> es para cursiva
+
+Vamos a trabajar con 3 displays:
+-inline-block
+-inline
+-block
+
+Hablo de unidades de medidas (como pixeles y relativas)
+
+Crearse cuenta en codecademy y hacer los cursos de HTML y de CSS

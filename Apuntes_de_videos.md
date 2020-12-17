@@ -48,3 +48,7 @@ Lo que va en la etiqueta <title> es de lo mas clave para SEO. Se recomienda max 
 factor crítico en el posicionamiento de una web, pero sí afecta directamente en la tasa de clics
 en los resultados de un motor de búsqueda, ya que es el texto que aparece bajo el título en la
 página de resultados del buscador."
+
+## Me voy a saltar videos 11-16 para entrar a class
+
+## Añadir CSS

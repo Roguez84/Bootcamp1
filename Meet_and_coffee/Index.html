@@ -1,0 +1,99 @@
+<!--Esta es mi primera pagina web -->
+
+<!--<<!DOCTYPE html> -->
+<!DOCTYPE html>
+<html>
+  <head>
+      <title> Mi primera pagina web </title>
+      <!-- este es el link a style.css -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+
+  <body>
+
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Contacto</a>
+      <a href="#">Nosotros</a>
+    </nav>
+
+    <main>
+      <header>
+
+        <h1 style="color:red; font-size: 60px;" id="titulo">Hola pastelazo </h1>
+        <hr>
+        <h2 id="sub">esta es mi pagina</h2>
+        <h3>otro subtitulo </h3>
+        <!--<button type="button" name="button"> Apretame</button> -->
+        <button class="boton"> Apretame</button>
+        <span>hola soy un <em>span</em></span>
+        <h4>esta es mi pagina</h4>
+        <h5>esta es mi pagina</h5>
+        <h6>esta es mi pagina</h6>
+        <p>Lorem ipsum dolor <strong>sit amet</strong>, consectetur adipisicing <b> elit</b>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </header>
+      <figure>
+
+        <figure class="caja imagen">
+          <img  src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_view_of_the_sun2/22133123-1-eng-GB/Solar_Orbiter_s_first_view_of_the_Sun_pillars.png"
+                width="500px"
+                height="500px"
+                alt="Sol amarillo"
+                >
+        </figure>
+
+        <figure class="caja imagen">
+          <!-- abajo cargo foto desde la carpeta en mi computador usando ruta absoluta-->
+          <img  src="..\Meet_and_coffee\assets\JuanGonzalez.PNG"
+                alt="Juancho Gonzalez"
+                >
+        </figure>
+
+      </figure>
+
+      <section>
+
+        <article class="caja">
+            <h3> Lista de comida zombie (unordered list)</h3>
+            <ul>
+              <li>cerebros</li>
+              <li id="pizza">pizza</li>
+              <li>plantas</li>
+              <ul>
+                <li>con pina</li>
+                <li>con anchoas</li>
+              </ul>
+            </ul>
+        </article>
+
+          <h3> Lista de tareas zombie</h3>
+            <ol class="tareas">
+              <li>levantarse</li>
+              <li>comer</li>
+            </ol>
+
+      </section>
+
+
+      <div class="">
+      <!--el "#" de abajo es un shortcut para que el link lleve a la misma pagina-->
+        <a href="#">ir a esta misma pagina</a>
+      </div>
+      <a href="https://www.w3schools.com/" target="_blank" >ir a pagina de W3Schools</a>
+
+      <a href="https://www.urbandictionary.com/define.php?term=Uncle%20Rico" target="_blank">
+        <img src="https://static.hollywoodreporter.com/sites/default/files/2016/03/napoleon_dynamite_2004_16.jpg" "alt=Uncle Rico">
+      </a>
+
+    </main>
+
+    <footer>
+
+      Esta pagina fue creada en el bootcamp1
+
+    </footer>
+
+  </body>
+
+</html>
