@@ -1,22 +1,39 @@
   body{
     text-align: center;
     color: #000f08;
+
+    margin:0;
   }
+
+    body * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      }
 
   .oscuro{
     background: #000f08;
     color: #ffffff;
   }
+
   .oscuro a{
     color: #ffffff;
     text-decoration: none;
+  }
+
+  .sweet-brown{
+
+  }
+
+  .hero-section {
+    
   }
 /*
   nav {
     background-color: cyan;
   }
 */
-  header {
+  #inicio {
     background-image: url("../img/bg-hero.png");
     /*tengo que hacer que la foto no se repita*/
     background-repeat: no-repeat;
@@ -38,3 +55,9 @@
     color: white;
   }
 */
+/*
+  svg {
+    width:20px;
+    height: 30px;
+    fill:white;
+  }*/

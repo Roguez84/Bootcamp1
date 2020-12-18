@@ -164,3 +164,7 @@ Wapalyzer es una extension de chrome que se puede usar para revisar si la pagina
 Bootstrap grid divide la pagina en 12 columnas
 
 hicimos el tema de las trjetas en la pagina web con bootstrap
+
+#Dia 5
+Patron BEM, es para organizar las clases CSS para que no se confundan entre
+paginas
