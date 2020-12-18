@@ -142,3 +142,25 @@ Vamos a trabajar con 3 displays:
 Hablo de unidades de medidas (como pixeles y relativas)
 
 Crearse cuenta en codecademy y hacer los cursos de HTML y de CSS
+
+# Apuntes dia 4
+
+## Bootstrap
+Responsive se refiere a adaptarse a distintos tipos de tamaño de pantalla
+Hay que netender el concepto de frameworks
+
+Hay que guardar archivo bootstrap en la carpeta assets
+En general la practica es crear un archivo style.css en la carpeta assets
+que sobrescriba el archivo bootstrap para situaciones puntuales (en vez de
+de editar el archivo bootstrap)
+
+Archivo javascript hay que cargarlo al final, just antes de que se acabe el <body>
+(no se cargan en el head)
+
+
+Para usar el archivo js, necesitamos la libreria jQuery
+Wapalyzer es una extension de chrome que se puede usar para revisar si la pagina esta hecha con bootstrap
+
+Bootstrap grid divide la pagina en 12 columnas
+
+hicimos el tema de las trjetas en la pagina web con bootstrap

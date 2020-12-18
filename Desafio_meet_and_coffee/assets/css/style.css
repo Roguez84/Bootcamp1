@@ -1,0 +1,40 @@
+  body{
+    text-align: center;
+    color: #000f08;
+  }
+
+  .oscuro{
+    background: #000f08;
+    color: #ffffff;
+  }
+  .oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+/*
+  nav {
+    background-color: cyan;
+  }
+*/
+  header {
+    background-image: url("../img/bg-hero.png");
+    /*tengo que hacer que la foto no se repita*/
+    background-repeat: no-repeat;
+    color: white;
+    text-align: right;
+    /*aprenderse mejor las opciones de background-size*/
+    background-size: cover;
+    text-shadow: 2px 3px 2px #707070;
+  }
+
+  #speaker {
+    background-color: #A4452C;
+    text-align: left;
+    color: #ffffff;
+  }
+/*
+  footer {
+    background-color: black;
+    color: white;
+  }
+*/
