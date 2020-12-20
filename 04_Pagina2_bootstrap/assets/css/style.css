@@ -1,0 +1,67 @@
+/*
+@media screen and (min-width:200px) and (max-width:499px) {
+  body {
+    background-color: cyan;
+  }
+}
+
+
+  @media screen and (min-width:500px) and (max-width:700px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  @media screen and (min-width:701px) and (max-width:900px) {
+    body {
+      background-color: red;
+    }
+  }
+
+  @media screen and (min-width:901px) and (max-width:2000px) {
+    body {
+      background-color: green;
+    }
+  }
+*/
+
+ header {
+   background-image: url("../img/Mountain.jpg");
+   height: 550px;
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: center;
+   margin-top:59px;
+
+ }
+
+.navbar-brand svg {
+  width: 32px;
+  height: 32px;
+  fill: blue;
+}
+
+ .b-.loquesa{
+background-color: greenyellow;
+ }
+
+ .navbar-brand,
+ .nav-link {
+color:black;
+ }
+ 
+
+ .navbar-brand:hover,
+ .nav-link:hover {
+color:green:
+ }
+ 
+ /*para dejar el icono de la taza pegado a la pantalla*/
+ .taza {
+   width: 60px;
+   height: 60px;
+   position:sticky;
+   bottom: 10px;
+   right: 90px;
+
+ }

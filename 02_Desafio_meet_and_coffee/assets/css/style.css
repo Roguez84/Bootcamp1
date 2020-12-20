@@ -1,0 +1,63 @@
+  body{
+    text-align: center;
+    color: #000f08;
+
+    margin:0;
+  }
+
+    body * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      }
+
+  .oscuro{
+    background: #000f08;
+    color: #ffffff;
+  }
+
+  .oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .sweet-brown{
+
+  }
+
+  .hero-section {
+    
+  }
+/*
+  nav {
+    background-color: cyan;
+  }
+*/
+  #inicio {
+    background-image: url("../img/bg-hero.png");
+    /*tengo que hacer que la foto no se repita*/
+    background-repeat: no-repeat;
+    color: white;
+    text-align: right;
+    /*aprenderse mejor las opciones de background-size*/
+    background-size: cover;
+    text-shadow: 2px 3px 2px #707070;
+  }
+
+  #speaker {
+    background-color: #A4452C;
+    text-align: left;
+    color: #ffffff;
+  }
+/*
+  footer {
+    background-color: black;
+    color: white;
+  }
+*/
+/*
+  svg {
+    width:20px;
+    height: 30px;
+    fill:white;
+  }*/

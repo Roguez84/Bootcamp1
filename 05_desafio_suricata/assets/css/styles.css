@@ -27,4 +27,13 @@
         color: #707070;
         opacity: 1;
     }
+
+    /*cards*/
     
+    top: 299px;
+    left: 180px;
+    width: 248px;
+    height: 132px;
+    background: #001D1D 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 0.17;
