@@ -52,3 +52,26 @@ página de resultados del buscador."
 ## Me voy a saltar videos 11-16 para entrar a class
 
 ## Añadir CSS
+
+### 29. Propiedad Display inline block
+
+elementos block:
+Comienza en una nueva linea y ocupa todo el ancho
+Ej: div, h1-h6,p,form, header, footer, section
+
+elementos inline:
+No comienzan en nueva linea, usan el minimo ancho posible
+Ej: span, a, strong
+
+elementos inline-block
+No agrega un salto de linea despues del elementos. Permite establecer un width un height al elemento
+ej: imagenes
+(Esto se le puede declarar como propiedad en css (ej: display:inline-block;)
+
+Width y height no afectan al padding ni margen. Solo afecta al contenido
+
+Vieport width y height son relativas al tamaño de la pantalla que se este utilizando
+
+medidas relativas son %, vieport, rem (relativo al font raiz del documento), em (1.0x el tamaño del font del padre)
+
+z-index define como se "apilaran" los elementos
