@@ -165,6 +165,10 @@ Bootstrap grid divide la pagina en 12 columnas
 
 hicimos el tema de las trjetas en la pagina web con bootstrap
 
-#Dia 5
+# Dia 5
 Patron BEM, es para organizar las clases CSS para que no se confundan entre
 paginas
+
+# Dia 6
+Intro a JavaScript
+Es buen habito poner al final de las lineas ';' aunque no sea obligacion
