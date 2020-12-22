@@ -6,6 +6,9 @@
     background-color: rgb(251, 205, 205);
 }
 
+footer {
+    height: 70px;
+}
 /* .carousel-item img {
     object-fit: fill;
 } */
