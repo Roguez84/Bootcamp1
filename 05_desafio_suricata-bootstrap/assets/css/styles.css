@@ -1,0 +1,74 @@
+    .bg-pink {
+        background-color: #E83E8C;
+        width:1280px ;
+        height: 75px;
+    }
+
+    .navbar-brand img {
+        height: 53px;
+        weight: 132px;
+        top: 12px;
+        left 119px;
+    }
+
+    .container  {
+        text-align: right;
+        align-items: right;
+    }
+
+    header *{
+        top: 139px;
+        left: 345px;
+        width: 590px;
+        height: 82px;
+        text-align: left;
+        font: normal normal bold 60px/82px Open Sans;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+    }
+
+    /*cards*/
+/*
+    top: 299px;
+    left: 180px;
+    width: 248px;
+    height: 132px;
+    background: #001D1D 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 0.17;
+  */
+    article {
+      height: 170px;
+      background: #17A2B8 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+
+    article h2 {
+      text-align: left;
+      font: normal normal bold 40px/55px Open Sans;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      display: inline-block;
+    }
+
+    article i {
+      /**background: #FFFFFF 0% 0% no-repeat padding-box;*/
+      fill: #FFFFFF;
+      opacity: 1;
+
+    }
+    footer {
+      height: 184px;
+      background: #E83E8C 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    footer img {
+      width: 53px;
+      height: 100px;
+      /*background: #FFFFFF 0% 0% no-repeat padding-box;*/
+      opacity: 1;
+    }

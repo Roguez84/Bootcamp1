@@ -1,0 +1,176 @@
+  /*video 23*/
+  body{
+    text-align: center;
+    color: #000f08;
+    /*video 28*/
+    margin:0;
+    /*video 32*/
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /*video 28*/
+  /*cual es la diferencia entre "body" y "body *"*/
+  body * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      }
+
+  /*video 32*/
+  h1 {
+    font-weight: 800;
+  /*video 33*/
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+  }
+
+  /*video 32*/
+  h2  {
+    font-weight: 700;
+  /*video 33*/
+    font-size: 2.5em;
+  }
+  /*video 33*/
+  h3 {
+    font-size: 2em;
+  }
+  /*video 33*/
+  h4 {
+    font-size: 1.75em;
+  }
+  /*video 33*/
+  h5 {
+    font-size: 1.75em;
+  }
+  /*video 32*/
+  .subtitulo,h4,h5 {
+    font-weight: 400;
+  }
+
+  /*video 24*/
+  .oscuro{
+    background: #000f08;
+    color: #ffffff;
+  }
+
+  /*video 24*/
+  .oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  /*video 24*/
+  .sweet-brown{
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    /*video 28*/
+    padding: 50px;
+    /*video 31*/
+    white-space: nwrap;
+  }
+
+  /*video 24*/
+  /*tambien video 25?? 24 y 25 son iguales???*/
+  .hero-section {
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    /**tengo que hacer que la foto no se repita**/
+    background-repeat: no-repeat;
+    /*aprenderse mejor las opciones de background-size. Cover cubre ele elemnto que lo contiene*/
+    background-size: cover;
+    color: #ffffff;
+    /*quitado en video 33
+    text-shadow: 2px 3px 2px #707070;*/
+    /*video 28, taken out in video 36
+    padding:50px 50px 100px 50px;*/
+    /*video 33*/
+    text-shadow: 0.125em 0.25em 1.25em #707070;
+    padding: 6.25rem 3.125rem;
+  }
+
+  /*video 28*/
+  section, footer {
+    margin-top: 75px;
+  }
+
+/*
+  #inicio {
+    background-image: url("../img/bg-hero.png");
+    /*tengo que hacer que la foto no se repita
+    background-repeat: no-repeat;
+    color: white;
+    text-align: right;
+    /*aprenderse mejor las opciones de background-size
+    background-size: cover;
+    text-shadow: 2px 3px 2px #707070;
+  }
+*/
+/*  #speaker {
+    background-color: #A4452C;
+    text-align: left;
+    color: #ffffff;
+  }
+*/
+/*video 28*/
+  footer {
+      padding:50px;
+/*    maring-top: 75px;
+    background-color: black;
+    color: white;*/
+  }
+  /*video 29*/
+    .charla-texto, .evento {
+      display: inline-block;
+    }
+
+
+  /*video 31*/
+  .centrado {
+    width: 75%;
+    margin: 0 auto;
+  }
+  /*video 31*/
+  .charla-speaker {
+    width: 25%;
+  }
+  /*video 31*/
+  .charla-texto {
+    width 70%;
+    vertical-align: middle;
+    margin-left:5%;
+    white-space: normal;
+  }
+
+/*video 36*/
+  nav {
+     text-align: left;
+     padding: 1.25rem 4rem;
+     position: fixed;
+     width: 100vw;
+  }
+/*video 36*/
+  nav ul{
+    list-style-type: none;
+  }
+/*video 36*/
+  nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    /*video 37*/
+    vertical-align: middle;
+  }
+
+/*video 37*/
+  .icono {
+    width: 2rem;
+  }
+
+/*video 37*/
+  .icono svg {
+    fill: #ffffff;
+  }
+
+  footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+  }

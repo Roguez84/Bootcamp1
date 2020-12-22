@@ -75,3 +75,58 @@ Vieport width y height son relativas al tamaño de la pantalla que se este utili
 medidas relativas son %, vieport, rem (relativo al font raiz del documento), em (1.0x el tamaño del font del padre)
 
 z-index define como se "apilaran" los elementos
+
+
+## Bootstrap
+
+### 3. Introduccion a Bootstrap
+
+Un framework CSS proveen una estructura basica para resolver problemas tipicos
+(Bootstrap es un framework de CSS)
+Algo en lo que destaca bootstrap es por su sistema de grillas
+
+### 4. Mobile first
+Es solo tener primero en mente como se vera en celulares antes de en computadores
+En la pagina de bootstrap hay "Media queries". Esto es lo que se usa para considerar
+distintos tamaños de pantalla
+
+Trabajar usando caracteristicas de los diseños responsivos. Esto significa usar
+etiquetas meta viewport:
+<meta name="viewport"
+      content="
+      width=device-width,
+      initial-sscale=1.0
+      ">
+
+Imagenes responsivas: Usar imagenes que respondan al tamaño de la pantalla
+
+### 5. CSS Media queries
+Media queries es una técnica introducida en CSS3. Consiste en el uso de una regla ""@media"
+para dar estilos de CSS específico, según una o más condicionales. Esta condicional
+generalmente corresponde a las características del dispositivo. Cuando el dispositivo cumple
+con la condicional, ésta es verdadera, ejecutando ese código CSS que está dentro del media
+query
+
+La estructura de un media query consiste en:
+-La regla: @media
+-Una condición: (min-width: 576px)
+-Un bloque de declaraciones {...} donde se introducen los distintos selectores con sus
+propiedades.
+
+Ejemplo:
+@media (min-width: 576px) {
+body{
+background: blue;
+}
+h1 {
+color: red;
+}
+}
+@media (min-width: 768px) {
+body{
+background: red;
+}
+h1 {
+color: blue;
+}
+}

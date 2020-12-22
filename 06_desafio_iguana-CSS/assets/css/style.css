@@ -1,0 +1,132 @@
+  body *{
+    /*width: 100vw;*/
+    width: 1280px;
+    margin: 0px;
+  }
+
+  header {
+    top: 0px;
+    left: 0px;
+    height: 73px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+
+  #titulo {
+  /*  top: 7px;
+    left: 530px;
+    height: 59px;*/
+    text-align: center;
+    font: normal normal medium 50px/59px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    /*position: relative;*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  }
+
+  .iguana-grande img{
+    top: 73px;
+    left: 0px;
+    height: 727px;
+    /*background: transparent url('img/photo-1516008805996-d2abb468cc9a.png') 0% 0% no-repeat padding-box;*/
+    opacity: 1;
+  }
+
+  .descripcion {
+    top: 800px;
+    left: 0px;
+    /*width: 1280px;*/
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .descripcion p {
+    text-align: left;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 150px;
+    width: 475px;
+    height: 197px;
+    padding-right: 106px;
+  }
+
+  .descripcion img {
+    width: 399px;
+    height: 237px;
+    /*background: transparent url('img/photo-1492963892107-740cd39d9ff3.png') 0% 0% no-repeat padding-box;*/
+    opacity: 1;
+    padding-top: 45px;
+  }
+
+
+  .Caracteristicas {
+    top: 1141px;
+    left: 0px;
+    /*width: 1280px;*/
+    height: 348px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+  }
+
+  .Caracteristicas h2 {
+    text-align: center;
+    padding-top: 75px;
+    font: normal normal medium 40px/47px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  }
+
+  .Caracteristicas p{
+    text-align: center;
+    font: normal normal 300 24px/29px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+  }
+
+
+  .carac-especificas *{
+    display: inline-block;
+    color: #ffffff;
+  }
+
+
+  .fotos-iguanas {
+    top: 1488px;
+    left: 0px;
+    /*width: 1280px;*/
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+  }
+   .fotos-iguanas img {
+     width: 316px;
+     height: 202px;
+   }
+
+   footer {
+      height: 102px;
+      background: #1E1A13 0% 0% no-repeat padding-box;
+      opacity: 0.94;
+   }
+
+   footer p {
+      text-align: center;
+      font: normal normal 300 20px/24px Raleway;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      font-family: 'Raleway', sans-serif;
+      display: inline-block;
+   }

@@ -1,0 +1,92 @@
+  /*nav {
+    background-image: linear-gradient(to right, blue,green);
+    opacity: 0.4
+  }
+*/
+/*"#" conecta con id= (en este caso titulo en index.html */
+  #titulo {
+    color:blue;
+  }
+
+/* "." se conecta con class (image en index.html)*/
+  .imagen {
+
+    border: 3px dotted red; /*lo mismo que abajo pero en 1 linea*/
+    /*para escribir en una linea como arriba, hay que seguir un orden en particular*/
+
+    border: 3px;
+    border-color:red;
+    border-style: dotted;
+  }
+
+/*abajo, h2 tiene una clase que se llama subtitulo. Entonces si le asignamos colores
+por medio de h2 y de .subtitulo, lo que va a pasar, es que va a dominar el mas espeifico,
+en este caso, el mas especifico es la clase*/
+/*en orden de mas a menos especifico: style directo en la etiqueta >> id >> clase >> etiqueta en archivo .css
+Esto aplica para colores */
+/*Cuando se especifica color para 2 elementos de la misma especifidad, va a dominar
+el que este mas arriba en la cascada*/
+/*
+  #sub {
+    color: cyan;
+  }
+*/
+  h2 {
+    color: red;
+  }
+
+  .subtitulo {
+    color: blue;
+      }
+
+  h3 {
+    color:magenta;
+  }
+
+/*abajo es para buscar clase dentro de una etiqueta*/
+  article.caja h3 {
+    color:lightgreen
+  }
+
+/* lo que va despues del "." es una clase que esta dentro de la etiqueta
+el espacio es para seleccionar un "hijo" osea una linea que este*/
+/*separar con "," añade a mas selectores
+  /*.tareas li {*/
+  ol, h4 {
+    background-color:lightblue;
+  }
+
+  #pizza {
+    color:red;
+  }
+
+/*botones*/
+  .boton {
+    color:white;
+    background-color:blue;
+  }
+
+  .boton:hover {
+    background-color:aqua
+  }
+
+  .boton:active {
+    background-color:red;
+  }
+
+  /*ahora va a cambiar de color algo que le hacemos hover como un subtitulo*/
+    #sub:hover {
+      color:blueviolet;
+    }
+
+/*******************************/
+/* codigo para pagina de tarea */
+    #m_n_c {
+      background-image: black/*#000F08*/;
+    }
+    #m_n_c a {
+      color:gray
+    }
+    #taza {
+      background-color:black
+    }
