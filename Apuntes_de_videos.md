@@ -130,3 +130,20 @@ h1 {
 color: blue;
 }
 }
+
+### 7. Integrando el CDN de bootstrap
+Bootstrap esta desarrollado en gran parte por la libreria Jquery de JavaScript
+Popper es un plugin de JavaSript para componentes como hover, dropdowns, etc
+
+### 8. Que es el CDN?
+CDN significa Content Delivery Network (Red de Distribución de Contenidos). La tecnología
+CDN implica una red de servidores repartidos por el mundo que entregan parte del contenido
+estático de los sitios web a los visitantes (en función de la ubicación del usuario). Este
+contenido estático puede incluir: HTML, imágenes, streaming de audio, streaming de vídeo,
+CSS, JavaScript y fuentes tipográficas.
+**CDN necesita internet para funcionar
+
+### Probando la integacion de Bootstrap
+Bootstrap al final no es mas que una gran hoja de CSS
+La razon porque se ponen los script a Jquery, popper, al final, es para que sea
+lo ultimo que se cargue de la pagina
