@@ -172,3 +172,10 @@ paginas
 # Dia 6
 Intro a JavaScript
 Es buen habito poner al final de las lineas ';' aunque no sea obligacion
+
+# Dia 7
+JavaScript
+
+En Javascript, etiquetas HTML se ven como nodos
+Javascript se basa en los arboles DOM
+aprendimos a crear funciones y a ejecutarlas. ready ejecuta codigo apenas se carga la pagina

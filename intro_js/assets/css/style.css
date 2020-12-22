@@ -1,0 +1,36 @@
+.bg-darkzombi {
+    background-color: rgb(68, 1, 1);
+}
+
+.bg-lightzombi {
+    background-color: rgb(251, 205, 205);
+}
+
+/* .carousel-item img {
+    object-fit: fill;
+} */
+
+
+@media(max-width: 700px) {
+    .carousel-item img {
+        height: 50vh;
+    }
+}
+
+@media(min-width: 701px) and (max-width: 900px) {
+    .carousel-item img {
+        height: 70vh;
+    }
+}
+
+@media(min-width: 901px) and (max-width: 1300px){
+    .carousel-item img {
+        height: 90vh;
+    }
+}
+
+@media(min-width: 1301px) {
+    .carousel-item img {
+        height: 100vh;
+    }
+}
