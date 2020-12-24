@@ -19,30 +19,141 @@
      nvbar tiene las dimensiones  de la barra
      navbar-expand-lg podemos es sobre la hamburguesa del menu
      navbar light - lightpersonalizan el fondo -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- container-fluid"> -->
+        <div class="container">
         <!--navbar-brand imagen se centra automaticamente en forma vertical con el contenido -->
-          <a class="navbar-brand" href="#"><img src="./assets/img/" alt="logo de Olivia Ros">
+          <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="logo de Olivia Ros">
           </a>
+          <!-- navbar-toggler hace que se muestre un dropdown de hamburguesa en pantallas chicas  -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- esto crea el icono del menu hamburguesa -->
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <!-- nav-link entrega el  formato -->
+                <a class="nav-link" href="#">Acerca de mi <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Contacto</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+
             </ul>
           </div>
+        </div>
       </nav>
+
+      <header class="hero text-right py-5">
+        <div class="container">
+          <h1 class="display-1 font-weigth-bold my-5">Comidas del fin del mundo</h1>
+          <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+          <button type="button" class="btn btn-outline-info btn-lg">Trabajos</button>
+          <button type="button" class="btn btn-info btn-lg">Contacto</button>
+        </div>
+      </header>
+
+      <section>
+        <div class="container text-center my-5">
+          <h2 class="display-3 font-weight-bold my-4">Acerca de mi</h2>
+          <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+
+          <div class="row">
+              <div class="col-md-4">
+                <i class="far fa-map  fa-3x my-3"></i>
+                <h3 class="my-3">Fotografa de Comida</h3>
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+
+              <div class="col-md-4">
+                <i class="fas fa-bullhorn fa-3x my-3"></i>
+                <h3 class="my-3">Critica culinaria</h3>
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+
+              <div class="col-md-4">
+                <i class="fas fa-camera fa-3x my-3"></i>
+                <h3 class="my-3">Bloggera de viajes</h3>
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+          </div>
+
+
+
+        </div>
+      </section>
+
+
+      <section class="container-fluid my-5 p-5 bg-info">
+        <div class="container">
+            <h2 class="display-3 text-center font-weight-bold my-4 text-light">Mis trabajos</h2>
+              <div class="card-deck">
+
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/card-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Asado en la Patagonia</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+                    <a href="#" class="btn btn-outline-info">Ver mas</a>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/card-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Papas del  fin del mundo</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+                    <a href="#" class="btn btn-outline-info">Ver mas</a>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/card-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Salmones de Alaska</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+                    <a href="#" class="btn btn-outline-info">Ver mas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+
+
+      <article class="">
+        <div class="container px-5">
+          <h2 class="display-3 text-center font-weight-bold my-4 text-dark">Contactame</h2>
+          <p class="my-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput"><strong>Nombre<strong></label>
+              <!--<label for="formGroupExampleInput">Nombre</label>-->
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Correo electronico</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Correo electronico">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe aqui tu mensaje"></textarea>
+            </div>
+              <button type="button" class="btn btn-info btn-lg pull-right mb-4">Enviar</button>
+          </form>
+        </div>
+      </article>
+
+      <footer>
+        <div class="container bg-dark text-light text-center">
+          <p>Olivia Ros 2019. Todos los derechos reservados.</p>
+
+        </div>
+
+      </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
