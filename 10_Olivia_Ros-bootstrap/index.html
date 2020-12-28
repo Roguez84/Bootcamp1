@@ -19,7 +19,7 @@
      nvbar tiene las dimensiones  de la barra
      navbar-expand-lg podemos es sobre la hamburguesa del menu
      navbar light - lightpersonalizan el fondo -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- container-fluid"> -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- container-fluid"> -->
         <div class="container">
         <!--navbar-brand imagen se centra automaticamente en forma vertical con el contenido -->
           <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="logo de Olivia Ros">
@@ -47,10 +47,10 @@
         </div>
       </nav>
 
-      <header class="hero text-right py-5">
+      <header class="hero text-right py-5 mt-5">
         <div class="container">
-          <h1 class="display-1 font-weigth-bold my-5">Comidas del fin del mundo</h1>
-          <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+          <h1 class="display-1 font-weigth-bold my-5 text-light">Comidas del fin del mundo</h1>
+          <p class="my-5 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <button type="button" class="btn btn-outline-info btn-lg">Trabajos</button>
           <button type="button" class="btn btn-info btn-lg">Contacto</button>
         </div>
@@ -141,15 +141,16 @@
               <label for="formGroupExampleInput2">Mensaje</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe aqui tu mensaje"></textarea>
             </div>
-              <button type="button" class="btn btn-info btn-lg pull-right mb-4">Enviar</button>
+            <div class="text-right">
+              <button type="button" class="btn btn-info btn-lg mb-4">Enviar</button>
+            </div>
           </form>
         </div>
       </article>
 
       <footer>
-        <div class="container bg-dark text-light text-center">
+        <div class="container bg-dark text-light text-center p-3">
           <p>Olivia Ros 2019. Todos los derechos reservados.</p>
-
         </div>
 
       </footer>
