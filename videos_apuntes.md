@@ -163,3 +163,60 @@ aprendimos dejar padding y margen con bootstrap
 https://getbootstrap.com/docs/4.5/utilities/spacing/
 
 ### 13. Sistema de grillas
+
+# JavaScript
+
+### 3. Avisos alert y console log
+Etiquetas html para escribir Javascript is <script> (se puede poner en head y en body)
+Tabien podemos escribir en un archivo JavaScript y llamarlo desde el html. Para esto se usa src=""
+aprendimos el comando alert(). Sirve para mostrar un pop up message en la pagina web al usuario en un cuadro
+aprendimos console.log() que sirve para mostrar un  mensaje en la consola de la pagina
+
+### 4 Declaraciones y sintaxis
+comentarios son con // o con /*
+
+### 6 Tipos de datos y variables
+Para definir una variable hay que escribir "var" primero
+
+### Operadores y asignacion
+en Javascript hay un operador "===" que significa "identico que" no es lo mismo que "=="
+"==" puede salir "true" si se comparan dos variables que tienen el mismo valor pero son un tipo de dato distintos
+con "===" tambien tienen que ser el mismo tipo de dato
+
+### 8. Ejercitando con prompt
+Esto es para pedirle inputs al usuario (prompt();)
+
+Tambien aprendimos funcion document.write(); Esto hace que algo se añada a la pagina web.
+Por defecto, el prompt interpreta inputs como strings, entonces a veces es necesario cambiar el tipo de dato con parseInt();
+
+### 9 Ejercitando con prompt Parte II
+
+### 10. Integrando Jquery
+Se usa la funcion document ready event para asegurase que este todo cargado antes de ejecutar codigo
+
+### 11. Selectores
+comienzan con el signo $
+
+### 12. Eventos y funciones
+Ejemplos de eventos: click, presionar una tecla, cuando hace scroll, cuando cambia tamaño de pantalla
+se pueden crear funciones en base a estos eventos
+
+### 13. Metodos
+Accion a la que se ve enfrentado un selectores
+Metodos JQuery: Metodos de efectos y Metodos de manipulacion de HTML y CSS
+
+### 18. Bootstrap JavaSript
+Un Modal (en bootstrap) es como un pop up que puede aparecer con un click o apretando un boton
+Un mini pop up que aparece con un hover
+Lo otro que mostraron fueron dropdowns
+
+### 19. Implementando modals
+Usaron codigo de Bootstrap
+
+### 20. Integrando carousel de Bootstrap
+
+
+### 22. Popovers
+
+### 25. formularios con typeform
+typeform es una empresa que maneja los mensajes enviados por usuarios

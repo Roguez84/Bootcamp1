@@ -21,6 +21,7 @@ alert("la suma de tus numeros es "+ suma);
 
 document.write("<h1 id='color_letra'> Estoy aprendiendo JavaScript</h1>");
 
+/*
 var dividiendo = prompt(" numero dividiendo","10");
 var divisor = prompt("numero divisor","2");
 var color = prompt("color \n Ejemplo: blue, yellow, green, red, etc...");
@@ -33,6 +34,6 @@ total_modulo = dividiendo % divisor;
 
 document.write("la division es " + total_divi + " y su modulo es " + total_modulo + ". ");
 document.write("elegiste color " + color + " y cambia contenido de etiqueta h1");
-
+*/
 //metodo style.color no lo habiamos aprendido antes
 document.getElementById('color_letra').style.color = color;
