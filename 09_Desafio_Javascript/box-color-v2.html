@@ -1,0 +1,58 @@
+<!-- terminado -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Colores</title>
+  <style>
+    #box {
+      width: 170px;
+      height: 170px;
+      background-color: red;
+    }
+  </style>
+</head>
+
+<body id="body">
+  <div id="box"></div>
+  <button id="green"> Verde </button>
+  <button id="yellow"> Amarillo </button>
+  <button id="red"> Rojo </button>
+  <button id="agrandar"> Agrandar caja</button>
+  <button id="achicar"> Achicar caja</button>
+
+  <script>
+    var caja = document.getElementById("box");
+    var verde = document.getElementById('green');
+    var amarillo = document.getElementById('yellow');
+    var rojo = document.getElementById('red');
+    var agr = document.getElementById('agrandar');
+    var ach = document.getElementById('achicar');
+
+    verde.addEventListener('click', function () {
+      cambiar_color("green");
+    });
+    amarillo.addEventListener('click', function () {
+      cambiar_color("yellow");
+    });
+    rojo.addEventListener('click', function () {
+      cambiar_color("red");
+    });
+    function cambiar_color(color){
+      caja.style.backgroundColor = color;
+    }
+
+    agr.addEventListener('click', function () {
+      cambiar_porte('400px');
+    });
+    ach.addEventListener('click', function () {
+      cambiar_porte('100px');
+    });
+
+    function cambiar_porte(porte) {
+      caja.style.width = porte;
+      caja.style.height = porte;
+    }
+
+  </script>
+</body>
+</html>
