@@ -1,0 +1,95 @@
+
+* { 
+    border: 1px solid black;
+    border-style: dashed;
+    border-color: black;
+    margin:0px;
+    padding:0px;
+    // outline: dashed gray;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+body {
+    text-align: center;
+
+    * {
+        padding: 0 5% 0 5%
+    }
+    
+}
+
+.oscuro {
+    background-color: black;
+    color: white;
+}
+
+section {
+
+}
+
+.nav {
+    text-align: left;
+    padding-left: 10%;
+
+    #nav-elements li{
+        display: inline-block;
+        vertical-align: middle;
+        margin:10px
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+header {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 3px 2px #707070;
+    height: 50vh;
+    padding: 10%;
+
+    h1 {
+        padding-top: 0.5em;
+    }  
+}
+
+
+#meeting {
+    div {
+        // padding:5%;
+    }
+    
+}
+
+$speaker-content-height: 20%;
+$speaker-content-vertical-align: top;
+#speaker {
+    background-color: aquamarine;
+    // padding: 40px;
+
+    .foto-speaker {
+        display: inline-block;
+        // height: $speaker-content-height;
+        vertical-align: $speaker-content-vertical-align;
+    }
+
+    .info-speaker {
+        color: white;
+        text-align: left;
+        display: inline-block;
+        // height: $speaker-content-height;
+        vertical-align: $speaker-content-vertical-align;
+
+        
+    }
+}
