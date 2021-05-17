@@ -7,13 +7,10 @@
 
 img {
   max-width: 100%;
-  height: auto;
-  display: block; }
+  height: auto; }
 
 body {
   text-align: center; }
-  body * {
-    padding: 0 5% 0 5%; }
 
 .oscuro {
   background-color: black;
@@ -37,20 +34,33 @@ header {
   background-size: cover;
   color: #ffffff;
   text-shadow: 2px 3px 2px #707070;
-  height: 50vh;
-  padding: 10%; }
+  padding: 50px 50px 250px 50px; }
   header h1 {
     padding-top: 0.5em; }
 
+section {
+  margin-top: 75px; }
+
 #speaker {
-  background-color: aquamarine; }
-  #speaker .foto-speaker {
-    display: inline-block;
-    vertical-align: top; }
-  #speaker .info-speaker {
-    color: white;
-    text-align: left;
-    display: inline-block;
-    vertical-align: top; }
+  background-color: saddlebrown;
+  padding: 50px;
+  text-align: left; }
+  #speaker .centrado {
+    width: 75%;
+    margin: 0 auto; }
+    #speaker .centrado .foto-speaker {
+      display: inline-block;
+      height: 20%;
+      vertical-align: middle;
+      width: 25%; }
+    #speaker .centrado .info-speaker {
+      color: white;
+      display: inline-block;
+      height: 20%;
+      vertical-align: middle;
+      width: 72.5%; }
+
+#eventos .col-evento {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

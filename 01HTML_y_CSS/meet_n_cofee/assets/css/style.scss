@@ -11,25 +11,21 @@
 img {
     max-width: 100%;
     height: auto;
-    display: block;
+    //display: block;
   }
 
 body {
     text-align: center;
 
-    * {
-        padding: 0 5% 0 5%
-    }
+    // * {
+    //     padding: 0 5% 0 5%
+    // }
     
 }
 
 .oscuro {
     background-color: black;
     color: white;
-}
-
-section {
-
 }
 
 .nav {
@@ -55,12 +51,17 @@ header {
     background-size: cover;
     color: #ffffff;
     text-shadow: 2px 3px 2px #707070;
-    height: 50vh;
-    padding: 10%;
+    // height: 50vh;
+    // padding: 10%;
+    padding: 50px 50px 250px 50px;
 
     h1 {
         padding-top: 0.5em;
     }  
+}
+
+section {
+    margin-top: 75px;
 }
 
 
@@ -71,25 +72,42 @@ header {
     
 }
 
+
 $speaker-content-height: 20%;
-$speaker-content-vertical-align: top;
+$speaker-content-vertical-align: middle;
 #speaker {
-    background-color: aquamarine;
-    // padding: 40px;
+    background-color: saddlebrown;
+    padding: 50px;
+    text-align: left;
 
-    .foto-speaker {
-        display: inline-block;
-        // height: $speaker-content-height;
-        vertical-align: $speaker-content-vertical-align;
+    .centrado {
+        width: 75%;
+        margin: 0 auto;
+        //display: inline-block;
+
+        .foto-speaker {
+            display: inline-block;
+            height: $speaker-content-height;
+            vertical-align: $speaker-content-vertical-align;
+            width:25%;
+        }
+
+        .info-speaker {
+            color: white;
+            //text-align: left;
+            display: inline-block;
+            height: $speaker-content-height;
+            vertical-align: $speaker-content-vertical-align;
+            width:72.5%;
+            //margin-left: 2.5%;
+
+            
+        }
     }
+}
 
-    .info-speaker {
-        color: white;
-        text-align: left;
+#eventos {
+    .col-evento {
         display: inline-block;
-        // height: $speaker-content-height;
-        vertical-align: $speaker-content-vertical-align;
-
-        
     }
 }
